@@ -1,0 +1,29 @@
+document.addEventListener('DOMContentLoaded', function () {
+    // Botão do painel estilo "configurações do jogador"
+    const painelDoGangster = document.getElementById('painel-gta');
+    const menuDeAjustes = document.getElementById('menu-gta');
+
+    // Ativa/desativa o menu com animação estilo HUD
+    painelDoGangster.addEventListener('click', function () {
+        painelDoGangster.classList.toggle('gira-botao-gta');
+        menuDeAjustes.classList.toggle('menu-visivel');
+    });
+
+    // Botões para ajustar a "visão do jogador"
+    const zoomInBotao = document.getElementById('zoom-in');
+    const zoomOutBotao = document.getElementById('zoom-out');
+
+    let nivelDeFonte = 1;
+
+    // Aumenta a fonte como se estivesse ampliando a mira
+    zoomInBotao.addEventListener('click', function () {
+        nivelDeFonte += 0.1;
+        document.body.style.fontSize = `${nivelDeFonte}rem`;
+    });
+
+    // Diminui a fonte como se estivesse recuando da missão
+    zoomOutBotao.addEventListener('click', function () {
+        nivelDeFonte -= 0.1;
+        document.body.style.fontSize = `${nivelDeFonte}rem`;
+    });
+});
