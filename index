@@ -1,0 +1,105 @@
+<title>GTA Vibes</title>
+
+
+---
+
+## 🎮 Principais Alterações
+
+### 1. **Título e Identidade Visual**
+```html
+<title>GTA Vibes</title>
+```
+Substitua os logotipos:
+```html
+<img src="img/gta-logo.png" alt="Logotipo estilo GTA" class="nav-img" loading="lazy">
+```
+
+---
+
+### 2. **Cores e Estilo Visual**
+No seu `styles.css`, altere para tons escuros, com destaques em vermelho, amarelo e cinza metálico. Exemplo:
+```css
+body {
+    background-color: #1c1c1c;
+    color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #111;
+    border-bottom: 2px solid #ff0000;
+}
+
+.nav-link {
+    color: #f0f0f0;
+}
+
+.nav-link:hover {
+    color: #ff0000;
+}
+
+.botao-inicio {
+    background-color: #ff0000;
+    border: none;
+}
+
+footer {
+    background-color: #111;
+    color: #aaa;
+}
+```
+
+---
+
+### 3. **Conteúdo Temático**
+#### Seção de Introdução:
+```html
+<h1 class="display-4 text-white fst-italic fw-bold">Bem-vindo à</h1>
+<img src="img/gta-logo-secundario.png" alt="Logo GTA" width="563" height="278" loading="lazy">
+<a href="#gta" class="btn btn-danger btn-lg botao-inicio fw-semibold">Entrar na cidade</a>
+```
+
+#### Seção “O que foi a Tropicália?” → “Sobre o GTA”
+```html
+<section id="gta" class="my-5 pt-6 secao-gta">
+    <div class="container d-flex align-items-center">
+        <div class="col-5">
+            <h2>O que é GTA?</h2>
+            <p class="p-2">GTA (Grand Theft Auto) é uma série de jogos eletrônicos de ação e aventura que se passa em cidades fictícias inspiradas em locais reais. Com foco em liberdade, narrativa criminal e exploração urbana, GTA se tornou um ícone da cultura gamer, misturando música, carros, gangues e missões intensas.</p>
+        </div>
+    </div>
+</section>
+```
+
+---
+
+### 4. **Galeria com Imagens do Jogo**
+Substitua as imagens por screenshots do jogo:
+```html
+<img src="img/gta-street.jpg" class="img-fluid rounded-5" loading="lazy">
+<img src="img/gta-car-chase.jpg" class="img-fluid rounded-5" loading="lazy">
+```
+
+---
+
+### 5. **Formulário com Estilo Gangsta**
+```html
+<h2 class="mb-3">Fale com a gangue</h2>
+<input type="text" placeholder="Seu nome de rua">
+<input type="email" placeholder="Seu contato secreto">
+<textarea placeholder="Manda sua mensagem, parceiro"></textarea>
+```
+
+---
+
+### 6. **Rodapé Estilizado**
+```html
+<footer class="text-center p-3 fst-italic">
+    <p>Conecte-se com a crew:</p>
+    <i class="bi bi-whatsapp"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-youtube"></i>
+    <p class="mt-3">Site fictício inspirado em GTA. Sem fins comerciais.</p>
+</footer>
+```
+
