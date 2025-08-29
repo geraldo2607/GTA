@@ -1,0 +1,117 @@
+
+
+---
+
+### 🎮 1. Título e Identidade Visual
+
+```html
+<title>GTA Cultura</title>
+```
+
+Substitua o logo por algo inspirado em GTA — pode ser uma arte vetorial com silhuetas urbanas, carros, ou personagens estilizados.
+
+```html
+<img src="img/gta-logo.png" class="nav-img" loading="lazy">
+```
+
+---
+
+### 🎨 2. Estilo Visual (CSS)
+
+No seu `styles.css`, atualize as cores e fontes para algo mais agressivo e urbano:
+
+```css
+:root {
+    --gta-vermelho: #C62828;
+    --gta-preto: #212121;
+    --gta-cinza: #757575;
+    --gta-amarelo: #FFEB3B;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--gta-preto);
+    color: var(--gta-cinza);
+}
+
+header {
+    background-color: var(--gta-vermelho);
+    color: white;
+    border-bottom: 4px solid var(--gta-amarelo);
+}
+
+.nav-link {
+    color: var(--gta-amarelo);
+    font-weight: bold;
+}
+
+.botao-inicio {
+    background-color: var(--gta-vermelho);
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.display-4 {
+    color: var(--gta-amarelo);
+    text-shadow: 2px 2px var(--gta-vermelho);
+}
+
+#tropicalia {
+    background: url('img/gta-background.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.formulario {
+    background-color: var(--gta-cinza);
+    color: white;
+    box-shadow: 0 0 10px var(--gta-vermelho);
+}
+
+.formulario button {
+    background-color: var(--gta-vermelho);
+    color: white;
+}
+```
+
+---
+
+### 🖼️ 3. Imagens
+
+Troque as imagens da Tropicália por artes inspiradas em GTA:
+
+```html
+<img src="img/gta-character.png" alt="Personagem estilo GTA" class="img-fluid img-inicio">
+```
+
+Na galeria, use imagens com filtros urbanos, carros, grafites ou cenas noturnas da cidade.
+
+---
+
+### 📢 4. Textos com Tom GTA
+
+Atualize os textos para refletirem o estilo rebelde e direto do universo GTA:
+
+```html
+<h2>O que é o GTA Cultura?</h2>
+<p>GTA Cultura é uma jornada pelas ruas da arte brasileira com a pegada ousada do universo urbano. Misturamos música, atitude e história com o estilo de quem não pede licença pra criar.</p>
+```
+
+---
+
+### 🕹️ 5. Footer com Estilo
+
+```html
+<footer class="text-center p-3 text-white bg-dark">
+    <p>Conecte-se com a gangue:</p>
+    <i class="bi bi-whatsapp"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-youtube"></i>
+    <p class="mt-3">Site fictício inspirado em GTA. Sem fins comerciais.</p>
+</footer>
+```
+
+---
+
