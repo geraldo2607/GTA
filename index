@@ -1,4 +1,4 @@
-<title>GTA Vibes</title>
+{   <title>GTA Vibes</title>
 
 
 ---
@@ -13,7 +13,7 @@ Substitua os logotipos:
 ```html
 <img src="img/gta-logo.png" alt="Logotipo estilo GTA" class="nav-img" loading="lazy">
 ```
-
+}
 ---
 
 ### 2. **Cores e Estilo Visual**
